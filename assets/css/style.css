@@ -1,6 +1,18 @@
 .iframeContainer {
-  padding: 20px;
   border: 1px solid #e3e3e3;
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+
+.iframeContainer iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
@@ -28,4 +40,8 @@ body {
 #footer p {
   margin: 0;
   font-size: 16px;
+}
+
+.article p {
+  font-size: 20px;
 }

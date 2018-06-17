@@ -3,7 +3,7 @@
  * Add styling to your d3 chart with this file. */
  .tooltip {
     position: absolute;
-    width: 140px;
+    width: 160px;
     height: 70px;
     padding: 2px;
     padding-top: 8px;
@@ -22,7 +22,7 @@
   }
 
   .chart {
-    background-color: #CFD8DC;
+    background-color: #EEEEEE;
   }
 
   .active {
