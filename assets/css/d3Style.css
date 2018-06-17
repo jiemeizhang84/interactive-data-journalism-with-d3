@@ -3,8 +3,8 @@
  * Add styling to your d3 chart with this file. */
  .tooltip {
     position: absolute;
-    width: 135px;
-    height: 60px;
+    width: 140px;
+    height: 70px;
     padding: 2px;
     padding-top: 8px;
     font: 12px sans-serif;
@@ -17,11 +17,20 @@
   
   .axisText {
     font-family: sans-serif;
-    font-weight: bold;
     fill: darkgoldenrod;
     text-anchor: middle;
   }
 
   .chart {
     background-color: #CFD8DC;
+  }
+
+  .active {
+    font-weight: bold;
+    transition: fill 0.3s ease-out;
+  }
+  
+  .inactive {
+    font-weight: lighter;   
+    transition: fill 0.3s ease-out;
   }
